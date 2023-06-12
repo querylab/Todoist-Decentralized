@@ -1,0 +1,208 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  height: 60px;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 40px;
+  background-image: url('../images/todo1.png');
+  background-size: contain;
+  background-position: center;
+  
+  
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form span {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form input[type="submit"] {
+  background-color: #fb8999;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+.table {
+  border-collapse: collapse;
+  margin-top: 110px;
+  width: 50%;
+  display: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.table th,
+.table td {
+  border: 8px solid #ddd;
+  padding: 8px;
+  text-align: center;
+
+}
+
+
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.table th {
+  background-color: #cfcffb;
+
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #cfcffb;
+  color: #333;
+}
+
+
+
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-top: 2px solid #fb8999;
+  border-radius: 50%;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
